@@ -35,7 +35,7 @@
 // let stars = prompt('Введіть кількість рядків');
 // let i = 0;
 // while ( i < stars) {
-//     let j = 0;ІІ
+//     let j = 0;
 //     let line = '*'
 //     i++;
 //     while ( j < i-1){
@@ -45,3 +45,11 @@
 //     console.log(`${line}`);
 // };
 
+let a = prompt('Введіть число');
+let result = 0;
+for(let i = 0; i < a; i++){
+    if (i % 3 == 0 || i % 5 == 0){
+        result += i;
+    }
+}
+console.log(result);
